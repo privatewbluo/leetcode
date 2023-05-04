@@ -180,7 +180,7 @@ def sliding_window_template_with_examples(s, p):
 >75. Sort Colors
 >* 剑指 Offer 04. 二维数组中的查找
 >* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面
-```python3
+```python
 # two pointers scenario, famous applications such as binary search, quick sort and sliding window.
 
 '''
@@ -1854,6 +1854,8 @@ def bisect_left(arr, target, lo, hi):
 
 ### 算法和数据结构(学习相关书籍推荐)
 
+
+
 >- 算法图解.pdf  [百度云下载链接](https://pan.baidu.com/s/1dhEy_uvJYoqehdvYnHzoBg)  密码:lk0v
 >- 算法第四版.pdf  [百度云下载链接](https://pan.baidu.com/s/1b89HDicDLsCC_qg894FUvA)  密码:gsjc
 >- 算法导论第三版.pdf  [百度云下载链接](https://pan.baidu.com/s/1ljP9Qwg5RqL_4LzrYK9jrA)  密码:qans
@@ -1868,6 +1870,7 @@ def bisect_left(arr, target, lo, hi):
 >- 《LeetCode101（谷歌师兄刷题笔记）》[百度网盘链接](https://pan.baidu.com/s/1PERa4bL7K-FoXit5440YNQ)  密码: 14fn
 >- 《第二份谷歌刷题笔记》 [百度网盘链接](https://pan.baidu.com/s/1HMJvHjB964OpwtHAJQrPQw)  密码: k70j
 >-  阿里霜神-《LeetCode刷题手册》 [百度网盘链接](https://pan.baidu.com/s/1817n69g0eOj7fptRpdR3kQ)  密码: fwtn
+
 
 
 ### Donate
