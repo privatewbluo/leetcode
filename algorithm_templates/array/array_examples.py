@@ -12,6 +12,7 @@ def peakIndexInMountainArray1(A):
             return i
 
 
+
 # binary search
 def peakIndexInMountainArray2(A):
     lo, hi = 0, len(A)
