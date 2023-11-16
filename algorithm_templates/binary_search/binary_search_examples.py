@@ -14,7 +14,7 @@ def is_perfect_square(num: 'int') -> 'bool':
         elif mid * mid < num:
             low = mid + 1
         else:
-            high = mid - 1
+            high = mid - 1 
     return False
 
 

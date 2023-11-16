@@ -12,6 +12,7 @@ def peakIndexInMountainArray1(A):
             return i
 
 
+monetary recency
 
 # binary search
 def peakIndexInMountainArray2(A):

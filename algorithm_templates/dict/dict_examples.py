@@ -43,18 +43,7 @@ def groupAnagrams1(strs):
     return ans.values()
 
 
-# [49] https://leetcode.com/problems/group-anagrams/
-# Given an array of strings, group anagrams together.
-#
-# categorize by count
-def groupAnagrams2(strs):
-    ans = defaultdict(list)
-    for s in strs:
-        count = [0] * 26
-        for c in s:
-            count[ord(c) - ord('a')] += 1
-        ans[tuple(count)].append(s)
-    return list(ans.values())
+
 
 
 # [36] https://leetcode.com/problems/valid-sudoku

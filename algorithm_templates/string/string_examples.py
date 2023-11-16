@@ -404,17 +404,17 @@ application with string
 #
 # use dict
 def lengthLongestPath(input):
-    maxlen = 0
-    pathlen = {0: 0}
-    for line in input.splitlines():
-        # lstrip is better here
-        name = line.lstrip('\t')
-        depth = len(line) - len(name)
-        if '.' in name:
-            maxlen = max(maxlen, pathlen[depth] + len(name))
-        else:
-            pathlen[depth + 1] = pathlen[depth] + len(name) + 1
-    return maxlen
+maxlen = 0
+pathlen = {0: 0}
+for line in input.splitlines():
+    # lstrip is better here
+    name = line.lstrip('\t')
+    depth = len(line) - len(name)
+    if '.' in name:
+        maxlen = max(maxlen, pathlen[depth] + len(name))
+    else:
+        pathlen[depth + 1] = pathlen[depth] + len(name) + 1
+    print( maxlen)
 
 
 # [157] https://leetcode.com/problems/read-n-characters-given-read4/
